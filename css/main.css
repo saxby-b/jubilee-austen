@@ -189,10 +189,18 @@ ul.socialmedia-list li {
     }
 }
 @media only screen and (min-width: 1200px) {
+    /*Header Styles */
+    header nav {
+        width: 50%;
+    }
+    .homepage-hero h2 {
+        width: 80%;
+    }
     #about .content-wrapper {
         padding: 80px 0;
     
     }
+/*About Styles */
  #about h2 {
     font-family: "Lora", serif;
     font-size: 36px;
@@ -207,7 +215,7 @@ ul.socialmedia-list li {
     line-height: 40px;
     padding: 0 50px;
 } 
-    
+/*Skills Styles */
 #skills {
     background: #F5F5F5;
     text-align: center;
@@ -240,12 +248,16 @@ ul.socialmedia-list li {
     font-size: 20px;
     line-height: 40px;
     text-align: left;
+    width: 100%;
 }
 
-#contact {
-    background: #F9E9E9;
+/*Contact Styles */
+#contact .content-wrapper {
+    justify-content: center;
 }
-
+ul.socialmedia-list li {
+    padding: 0;
+}
 #contact .content-wrapper {
     padding: 110px 0;
 }
