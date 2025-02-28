@@ -48,11 +48,8 @@ header h1 {
 }
 
 header nav {
-   /* width: 800px; */
-    /*float: right; */
     text-align: right;
     padding: 75px 25px 75px 0;
-   /* width: 400px; */
     
 
 }
@@ -159,7 +156,38 @@ ul.socialmedia-list li {
     color: #5E5D5E;
 }
 
+@media only screen and (min-width: 768px) {
+  /*About Styles */
+    .about-content {
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
 
+    div .about-content p {
+        width: 35%;
+        font-size: 24px;
+    }
+
+    /*Contact Styles */
+    #contact .content-wrapper { 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .contact-image, .contact-info {
+        flex-flow: column wrap;
+    }
+
+    #contact #contact-img {
+        width: 70%;
+    }
+
+    ul.socialmedia-list {
+        padding: 0;
+    }
+}
 @media only screen and (min-width: 1200px) {
     #about .content-wrapper {
         padding: 80px 0;
