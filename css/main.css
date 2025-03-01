@@ -253,14 +253,13 @@ ul.socialmedia-list li {
 
 /*Contact Styles */
 #contact .content-wrapper {
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 110px 0;
 }
 ul.socialmedia-list li {
     padding: 0;
 }
-#contact .content-wrapper {
-    padding: 110px 0;
-}
+
 
 #contact .contact-image {
     float: left;
@@ -280,8 +279,9 @@ ul.socialmedia-list li {
 #contact .contact-info {
     float: left;
     padding-left: 100px;
-    width: 600px;
+    width: 40%;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 #contact h2 {
