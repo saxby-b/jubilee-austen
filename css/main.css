@@ -258,7 +258,7 @@ ul.socialmedia-list li {
     width: 100%;
    }
 } 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   /* Header Styles */
   header nav {
     width: 50%;
@@ -389,6 +389,17 @@ ul.socialmedia-list li {
   #contact ul img {
     padding-right: 40px;
   } 
+
+  /*Project Content */
+
+  div.project-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div.project-piece {
+    width: 35%;
+  }
 }
 
 
