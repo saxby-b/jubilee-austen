@@ -16,6 +16,7 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .homepage-hero h2 {
@@ -40,9 +41,10 @@ body {
 
 header h1 {
   float: left;
-  width: 300px;
+  width: 30%;
+  /*width: 300px; */
   font-family: "Lora", serif;
-  font-size: 30px;
+  font-size: 36px;
   padding: 65px 0 65px 25px;
   color: #7b7e54;
 }
