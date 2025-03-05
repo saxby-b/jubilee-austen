@@ -193,6 +193,7 @@ ul.socialmedia-list li {
   #projects .project-piece {
     /*width: 100%;*/
     padding: 0 50px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +206,10 @@ ul.socialmedia-list li {
     padding-bottom: 40px;
   }
 
+  #projects .project-piece h3 {
+    font-size: 32px;
+  }
+
   .project-piece img {
     width: 300px;
     padding-bottom: 30px;
@@ -212,7 +217,7 @@ ul.socialmedia-list li {
 
   #projects p {
     width: 50%;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 40px;
     /*text-align: left;*/
   }
