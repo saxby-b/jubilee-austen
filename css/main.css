@@ -400,6 +400,20 @@ ul.socialmedia-list li {
   div.project-piece {
     width: 35%;
   }
+
+  #projects .project-piece {
+    width: 25%;
+    align-self: flex-start;
+  }
+
+  div.project-piece h3 {
+    font-size: 24px;
+  }
+
+  #projects p {
+    width: 100%;
+    font-size: 20px;
+  }
 }
 
 
