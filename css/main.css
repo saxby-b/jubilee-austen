@@ -2,6 +2,7 @@ body {
   width: 100%;
   font-family: "Source Sans 3", sans-serif;
   color: #5e5d5e;
+  font-size: 1rem;
 }
 
 .content-wrapper {
@@ -23,7 +24,7 @@ body {
   width: 100%;
   clear: both;
   font-family: "Lora", serif;
-  font-size: 72px;
+  font-size: 4.5em;
   line-height: 80px;
   color: #817f80;
   padding: 20px 0 20px 25px;
@@ -44,7 +45,7 @@ header h1 {
   width: 30%;
   /*width: 300px; */
   font-family: "Lora", serif;
-  font-size: 36px;
+  font-size: 2.25em;
   padding: 65px 0 65px 25px;
   color: #7b7e54;
 }
@@ -60,11 +61,18 @@ nav ul li {
 
 nav ul li a {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #727172;
   padding-left: 50px;
 }
 /*About styles */
+#about h2 {
+  font-family: "Lora", serif;
+  font-size: 2.25em;
+  padding-left: 50px;
+  text-align: left;
+  width: 100%;
+}
 .about-content {
   display: flex;
   justify-content: center;
@@ -73,7 +81,7 @@ nav ul li a {
 }
 div .about-content p {
   width: 50%;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 40px;
   padding: 0 50px;
   display: flex;
@@ -83,11 +91,16 @@ div .about-content p {
 #skills {
   background: #f5f5f5;
 }
+
+#skills h2 {
+  font-size: 2.25em;
+}
 .skills-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 #skills .content-wrapper {
   width: 100%;
@@ -108,9 +121,13 @@ div .about-content p {
   width: max-width;
 }
 
+.skill-list h3 {
+  font-size: 2.5em;
+}
+
 .skill-list p {
   width: 70%;
-  font-size: 40px;
+  font-size: 1.5625em;
 }
 
 /* footer styles */
@@ -202,12 +219,12 @@ ul.socialmedia-list li {
 
   #projects h2 {
     font-family: "Lora", serif;
-    font-size: 36px;
+    font-size: 2.25em;
     padding-bottom: 40px;
   }
 
   #projects .project-piece h3 {
-    font-size: 32px;
+    font-size: 2em;
   }
 
   .project-piece img {
@@ -217,7 +234,7 @@ ul.socialmedia-list li {
 
   #projects p {
     width: 50%;
-    font-size: 25px;
+    font-size: 1.5625em;
     line-height: 40px;
     /*text-align: left;*/
   }
@@ -277,17 +294,10 @@ ul.socialmedia-list li {
     padding: 80px 0;
   }
   /*About Styles */
-  #about h2 {
-    font-family: "Lora", serif;
-    font-size: 36px;
-    padding-left: 50px;
-    text-align: left;
-    width: 100%;
-  }
 
   div .about-content p {
     width: 40%;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 40px;
     padding: 0 50px;
   }
@@ -309,18 +319,18 @@ ul.socialmedia-list li {
 
   #skills h2 {
     font-family: "Lora", serif;
-    font-size: 36px;
+    font-size: 2.25em;
     padding-bottom: 40px;
   }
 
   #skills h3 {
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 36px;
     margin: 30px 0 20px 0;
   }
 
   #skills p {
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 40px;
     text-align: left;
     width: 100%;
@@ -354,13 +364,13 @@ ul.socialmedia-list li {
 
   #contact h2 {
     font-family: "Lora", serif;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 600;
     margin: 30px 0;
   }
 
   #contact h3 {
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 36px;
     font-weight: 400;
   }
@@ -414,12 +424,12 @@ ul.socialmedia-list li {
   }
 
   div.project-piece h3 {
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   #projects p {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 }
 
