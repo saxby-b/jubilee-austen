@@ -172,6 +172,7 @@ ul.socialmedia-list {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 ul.socialmedia-list li {
