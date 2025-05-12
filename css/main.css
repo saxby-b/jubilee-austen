@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-flow: column wrap; 
 }
 
 .homepage-hero h2 {
@@ -40,15 +41,11 @@ body {
   height: 800px;
 }
 
-header h1 {
-  float: left;
-  width: 30%;
-  /*width: 300px; */
-  font-family: "Lora", serif;
-  font-size: 2.25em;
-  padding: 65px 0 65px 25px;
-  color: #7b7e54;
-}
+ .top-header h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+} 
 
 header nav {
   text-align: right;
@@ -57,6 +54,8 @@ header nav {
 
 nav ul li {
   list-style: none;
+  width: 100%; 
+  text-align: center;
 }
 
 nav ul li a {
@@ -79,12 +78,12 @@ nav ul li a {
   align-items: center;
   flex-flow: row wrap;
 }
- p.backstory {
+p.backstory {
   width: 50%;
   font-size: 1.25em;
   line-height: 40px;
   padding: 0 50px;
-}  
+}
 
 /* skills styles */
 #skills {
@@ -248,6 +247,59 @@ div.project-content {
 }
 
 @media (min-device-width: 768px) {
+  /*Header Styles */
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+  
+  .homepage-hero h2 {
+    width: 100%;
+    clear: both;
+    font-family: "Lora", serif;
+    font-size: 4.5em;
+    line-height: 80px;
+    color: #817f80;
+    padding: 20px 0 20px 25px;
+  }
+  
+  .top-header ul {
+    display: flex;
+    width: 30%;
+  }
+  .homepage-hero {
+    background: url("../img/full-background.png"), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+  }
+  
+  .top-header h1 {
+    float: left;
+    width: 30%;
+    font-family: "Lora", serif;
+    font-size: 2.25em;
+    padding: 65px 0 65px 25px;
+    color: #7b7e54;
+  }
+  
+  header nav {
+    text-align: right;
+    padding: 75px 25px 75px 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-transform: uppercase;
+    font-size: 1.125em;
+    color: #727172;
+    padding-left: 50px;
+  }
   /*About Styles */
   .about-content {
     justify-content: space-around;
@@ -256,9 +308,7 @@ div.project-content {
 
   p.backstory {
     width: 35%;
-
-  }  
-
+  }
 
   /*Contact Styles */
   #contact .content-wrapper {
@@ -441,4 +491,3 @@ div.project-content {
     font-size: 1.25em;
   }
 }
-
