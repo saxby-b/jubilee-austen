@@ -247,7 +247,7 @@ div.project-content {
   padding-bottom: 30px;
 }
 
-@media (device-width: 768px) {
+@media (min-device-width: 768px) {
   /*About Styles */
   .about-content {
     justify-content: space-around;
