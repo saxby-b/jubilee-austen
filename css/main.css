@@ -340,11 +340,18 @@ div.project-content {
 
 @media only screen and (min-width: 1200px) {
   /* Header Styles */
+  .top-header h1 {
+    width: 20%;
+    font-size: 30px;
+
+  }
   header nav {
-    width: 50%;
+    width: 47%;
   }
   .homepage-hero h2 {
     width: 80%;
+    margin: 0;
+    text-align: left;
   }
   #about .content-wrapper {
     padding: 80px 0;
@@ -380,7 +387,7 @@ div.project-content {
   #skills h2 {
     font-family: "Lora", serif;
     font-size: 2.25em;
-    padding-bottom: 40px;
+   /* padding-bottom: 40px; */
   }
 
   #skills h3 {
